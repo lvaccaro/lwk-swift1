@@ -13,7 +13,7 @@ let package = Package(
         .library(name: "Lwk", targets: ["lwkFFI", "Lwk"]),
     ],
     targets: [
-        .binaryTarget(name: "lwkFFI", url: "https://github.com/lvaccaro/lwk-swift1/releases/download/test/lwk.xcframework.zip", checksum: "0943c5868976328e22f05978761d2c4a815293b42b3a668899e9cfa3af764357"),
+        .binaryTarget(name: "lwkFFI", url: "https://github.com/lvaccaro/lwk-swift1/releases/download/test2/lwk.xcframework.zip", checksum: "0437b592b8d1183c7cd0f59fbec9317120b0fb571875a67a94bb4ff381804011"),
         .target(name: "Lwk", dependencies: ["lwkFFI"]),
     ]
 )
