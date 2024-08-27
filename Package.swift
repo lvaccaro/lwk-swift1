@@ -10,10 +10,10 @@ let package = Package(
         .iOS(.v11),
     ],
     products: [
-        .library(name: "LiquidWalletKit", targets: ["lwk", "LiquidWalletKit"]),
+        .library(name: "LiquidWalletKit", targets: ["lwkFFI", "LiquidWalletKit"]),
     ],
     targets: [
-        .binaryTarget(name: "lwk", url: "https://github.com/lvaccaro/lwk-swift1/releases/download/test6/lwk.xcframework.zip", checksum: "cef4755a3d35c83010ad3f0ce3b293a02e0f0d438fa0cb19c343eb51ec84c08b"),
-        .target(name: "LiquidWalletKit", dependencies: ["lwk"]),
+        .binaryTarget(name: "lwkFFI", url: "https://github.com/lvaccaro/lwk-swift1/releases/download/test11/lwkFFI.xcframework.zip", checksum: "b86758f4f2cee6e33c229049c5e074eff262640371375942bc08b52b80b9f928"),
+        .target(name: "LiquidWalletKit", dependencies: ["lwkFFI"]),
     ]
 )
