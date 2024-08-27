@@ -15,7 +15,7 @@ We support integration via the [Swift Package Manager](https://www.swift.org/pac
 Via `File > Add Packages...`, add
 
 ```
-https://github.com/lvaccaro/lwk-swift.git
+https://github.com/blockstream/lwk-swift.git
 ```
 
 as a package dependency in Xcode.
@@ -25,7 +25,7 @@ as a package dependency in Xcode.
 Add the following to the dependencies array of your `Package.swift`:
 
 ``` swift
-.package(url: "https://github.com/lvaccaro/lwk-swift.git", from: "0.8.0"),
+.package(url: "https://github.com/blockstream/lwk-swift.git", from: "0.8.0"),
 ```
 
 ### CocoaPods
@@ -36,14 +36,14 @@ Add the Lwk SDK to your `Podfile` like so:
 target '<YourApp' do
   use_frameworks!
 
-  pod 'Lwk'
+  pod 'LiquidWalletKit'
 end
 ```
 
 ## 📄 Usage
 
 ``` swift
-import Lwk
+import LiquidWalletKit
 
 // See: https://docs.rs/lwk_bindings
 ```
