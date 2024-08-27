@@ -13,7 +13,7 @@ let package = Package(
         .library(name: "LiquidWalletKit", targets: ["lwkFFI", "LiquidWalletKit"]),
     ],
     targets: [
-        .binaryTarget(name: "lwkFFI", url: "https://github.com/lvaccaro/lwk-swift1/releases/download/test11/lwkFFI.xcframework.zip", checksum: "b86758f4f2cee6e33c229049c5e074eff262640371375942bc08b52b80b9f928"),
+        .binaryTarget(name: "lwkFFI", url: "https://github.com/lvaccaro/lwk-swift1/releases/download/test12/lwkFFI.xcframework.zip", checksum: "29b51c5f1d434048926d1a6cb18fc652f96c16c363fcfb9374f59cddd15f2e69"),
         .target(name: "LiquidWalletKit", dependencies: ["lwkFFI"]),
     ]
 )
