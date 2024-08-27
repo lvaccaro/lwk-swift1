@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "bindings-swift",
+    name: "lwk_bindings",
     platforms: [
         .macOS(.v12),
         .iOS(.v11),
